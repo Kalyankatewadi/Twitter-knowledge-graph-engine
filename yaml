@@ -1,0 +1,17 @@
+
+---
+
+## ⚙️ Installation
+
+```bash
+pip install -r requirements.txt
+
+# Run pipeline
+python src/collector.py
+python src/cleaner.py
+python src/ner_extractor.py
+python src/graph_builder.py
+python src/analytics.py
+
+# Launch dashboard
+streamlit run dashboard/graph_app.py
